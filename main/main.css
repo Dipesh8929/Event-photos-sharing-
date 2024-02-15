@@ -33,3 +33,20 @@ a{
     text-decoration: none;
     color: black;
 }
+a.login
+{
+    position: absolute;
+    right: 150px;
+    top: 25px; 
+    font-weight: bold;
+    font-size: medium;
+}
+a.add
+{
+    position:absolute;
+    right: 350px;
+    top: 25px;
+    font-weight: bold;
+    font-size: medium;
+}
+

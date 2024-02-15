@@ -72,11 +72,20 @@ input[type=submit]:hover
 {
     display:flex;
     /* background-color: rgb(252, 241, 227); */
-    margin: 0%;
+    /* margin: 0px; */
+    border-radius: 15px;
+    margin-top: 0px;
 }
 li{
     list-style: none;
+    padding: 20px 20px;
+    font-size: large;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+
 
 
 

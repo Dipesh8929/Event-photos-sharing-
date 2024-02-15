@@ -68,10 +68,16 @@ input[type=submit]:hover
 {
     background-color: cyan;
 }
-.list
+.navigation
 {
+    display:flex;
+    /* background-color: rgb(252, 241, 227); */
+    margin: 0%;
+}
+li{
     list-style: none;
 }
+
 
 
 

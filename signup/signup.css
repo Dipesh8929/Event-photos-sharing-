@@ -1,0 +1,92 @@
+.container
+{
+
+    padding-top: 90px;
+    
+}
+body::before
+{
+    content: "";
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+
+    background-image:url(https://marketplace.canva.com/EAFVM_vyTDk/1/0/1600w/canva-beige-minimalist-sweet-2022-recap-memories-scrapbook-photo-collage-zSUcuFgHFhk.jpg);
+    background-size: cover;
+    opacity:0.7;
+}
+
+label
+{
+    color:black;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: start;
+}
+
+h1
+{
+    color: black;
+    margin-left: 48%;
+    /* margin: auto; */
+    width: 20px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    padding: auto;
+}
+
+input
+{
+    border: 1px solid black;
+    background-color:lightgoldenrodyellow;
+    display: block;
+     width: 40%;
+     padding: 10px;
+     border-radius: 5px;
+     margin-bottom: 20px;
+}
+
+    
+form
+{
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+input[type=submit]
+{
+padding: 12px 20px;
+width: 10%;
+cursor: pointer;
+background-color:none ;
+}
+
+input[type=submit]:hover
+{
+    background-color: cyan;
+}
+.navigation
+{
+    display:flex;
+    /* background-color: rgb(252, 241, 227); */
+    /* margin: 0px; */
+    border-radius: 15px;
+    margin-top: 0px;
+}
+li{
+    list-style: none;
+    padding: 20px 20px;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}

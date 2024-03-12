@@ -1,0 +1,51 @@
+header ::before
+{
+    content :"";
+    top:0px;
+    bottom:0px;
+    right: 0px;
+    left:0px;
+    position: absolute;
+    z-index: -1;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh3rXIAwawL7fTMjCaYDO-bkgWam9CgEC5uQ&usqp=CAU);
+    opacity: 0.6;
+}
+
+.navigation
+{
+    display:flex;
+    /* background-color: rgb(252, 241, 227); */
+    margin: 0%;
+}
+li
+{
+    list-style: none;
+    padding: 20px 20px;
+    font-weight: bold;
+    font-size: large;
+    
+}
+h1{
+    font-size: 50px;
+    color: rgb(75, 75, 75);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a.login
+{
+    position: absolute;
+    right: 150px;
+    top: 25px; 
+    font-weight: bold;
+    font-size: medium;
+}
+a.add
+{
+    position:absolute;
+    right: 350px;
+    top: 25px;
+    font-weight: bold;
+    font-size: medium;
+}

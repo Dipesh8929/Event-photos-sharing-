@@ -1,92 +1,76 @@
-.container
-{
-
-    padding-top: 90px;
-    
+.container {
+    padding-top: 10vh; /* Adjusted for better spacing */
+    padding-left: 5%; /* Added padding for better layout */
+    padding-right: 5%; /* Added padding for better layout */
+    text-align: center; /* Center content */
 }
-body::before
-{
+
+body::before {
     content: "";
-    position:absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: -1;
-
-    background-image:url(https://marketplace.canva.com/EAFVM_vyTDk/1/0/1600w/canva-beige-minimalist-sweet-2022-recap-memories-scrapbook-photo-collage-zSUcuFgHFhk.jpg);
+    background-image: url(https://marketplace.canva.com/EAFVM_vyTDk/1/0/1600w/canva-beige-minimalist-sweet-2022-recap-memories-scrapbook-photo-collage-zSUcuFgHFhk.jpg);
     background-size: cover;
-    opacity:0.7;
+    opacity: 0.7;
 }
 
-label
-{
-    color:black;
-    font-size: 23px;
-    font-weight: bold;
-    text-align: start;
-}
-
-h1
-{
+h1 {
     color: black;
-    margin-left: 48%;
-    /* margin: auto; */
-    width: 20px;
-    padding-bottom: 10px;
-    font-size: 50px;
-    padding: auto;
+    font-size: 3rem; /* Responsive font size */
 }
 
-input
-{
+form {
+    margin-top: 20px; /* Increased margin for better spacing */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px; /* Max width for better layout on larger screens */
+}
+
+input {
+    width: 100%; /* Full width on smaller screens */
+    padding: 10px;
+    margin-bottom: 15px;
     border: 1px solid black;
-    background-color:lightgoldenrodyellow;
-    display: block;
-     width: 40%;
-     padding: 10px;
-     border-radius: 5px;
-     margin-bottom: 20px;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
-    
-form
-{
-    margin-top: 10px;
-    margin-left: 40%;
-}
-
-input[type=submit]
-{
-padding: 12px 20px;
-width: 10%;
-cursor: pointer;
-background-color:none ;
-}
-
-input[type=submit]:hover
-{
+button {
+    width: 100%; /* Full width on smaller screens */
+    padding: 12px 0; /* Adjusted padding for better appearance */
+    border: none;
+    border-radius: 5px;
     background-color: cyan;
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
 }
-.navigation
-{
-    display:flex;
-    /* background-color: rgb(252, 241, 227); */
-    /* margin: 0px; */
-    border-radius: 15px;
-    margin-top: 0px;
+
+.navigation {
+    display: flex;
+   
+    margin-top: 20px; /* Increased margin for better spacing */
 }
-li{
-    list-style: none;
-    padding: 20px 20px;
-    font-size: large;
+
+.navigation li a {
+    padding: 0 10px;
+    color: black;
+
+
+}
+label{
+    font-size: 25px;
+    font-weight: 800;
+}
+button:hover{
+    background-color: beige;
+    
 }
 a{
     text-decoration: none;
     color: black;
-}
-button{
-    width: 200px;
-    height: 25px;
-    border-radius: 5px;
 }

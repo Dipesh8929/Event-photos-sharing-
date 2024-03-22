@@ -8,22 +8,24 @@
 </head>
 
 <body>
-    <form onsubmit="validateForm(event)" name="forgotpage" action="">
-    <ul><li><a href="../mainpage/main.html">Home</a></li>
-    <li><a href="../login_page/login.html">Login</a></li></ul>
-    <center>
-<div class="head"><h1>Forgot Your Password ?</h1></div>
-<div class="outer">
-<label for="user">Username</label>
-<input type="text" class="user" name="user" id="user" placeholder="Username">
-<label for="mail" >Recovery Mail</label>
-<input type="email" class="mail" name="mail" id="mail" placeholder="Your Mail">
-</div>
-<button type="submit" class="submit">Continue </button>
-
-
-</center>
-</form>
+    <nav>
+        <ul>
+            <li><a href="../mainpage/main.html">Home</a></li>
+            <li><a href="../login_page/login.html">Login</a></li>
+        </ul>
+    </nav>
+    <form name="forgotpage" onsubmit="validateForm(event)" action="">
+        <center>
+            <div class="head"><h1>Forgot Your Password ?</h1></div>
+            <div class="outer">
+                <label for="user">Username</label>
+                <input type="text" class="user" name="user" id="user" placeholder="Username">
+                <label for="mail" >Recovery Mail</label>
+                <input type="email" class="mail" name="mail" id="mail" placeholder="Your Mail">
+            </div>
+            <button type="submit" class="submit">Continue </button>
+        </center>
+    </form>
+    <script src="forgot.js"></script>
 </body>
-<script src="forgot.js"></script>
 </html>

@@ -1,0 +1,50 @@
+08112023	01:39:17	65cb5e2c-66a7-4a9e-8819-590f86dd3325	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:39:94	f28f8eac-eb5b-4433-b7a4-9b92c2d2be36	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:39:38	4526ce35-31be-4dd8-8ced-0234519fcf27	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:39:71	8c37a90a-c5a3-40c1-90a8-eea11b96c5e9	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:39:02	ce15ef8a-36c8-491d-a909-347f5fe0d71e	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:39:17	fac04ae3-9365-4a2d-b678-922609e1befa	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:39:37	40eeffe7-7903-403f-9be9-bd6889347e1b	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:39:56	394b17f8-1a2d-419d-943d-f0bfa5a58f1a	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:39:75	537ee301-0115-4b7b-8c6a-955ea7497b77	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:39:07	d7a10f84-f3b0-496c-8481-b84d3ce4db32	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:39:45	ee984a89-d7b8-4cc3-9c69-51de2d476af7	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:39:79	3d450718-312e-4a51-9eee-0881c258ecce	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:39:15	b6cf0908-a6c8-4c0b-afd6-bf754e49c92c	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:39:52	9982eb7f-8ebf-4fe2-a607-1e048db25b26	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:39:83	4d04e8fb-57d3-44af-86f1-0f65e62ec4df	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:39:29	edbdd829-559c-4c60-9e96-3637681d749c	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:41:39	3adf511d-5945-4b9e-9c2b-ebc135cf7b52	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:42:05	9d38f873-1a57-40eb-ba45-7047ccad9a8b	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:43:73	79d841a7-3003-4353-859e-7fb393dea76f	TypeError:allowedOrigins.indexOf is not a function	/auth	OPTIONS	http://localhost:3001
+08112023	01:44:29	97deec5d-e163-4754-ba34-f40d01891b0c	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:3001
+08112023	01:44:33	1b56a6a8-6f5b-4a2c-8922-20322e6f72f1	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:3001
+21112023	01:09:15	93538bdf-6322-42d4-ae8f-09dd99523343	ValidationError:User validation failed: panUrl: Path `panUrl` is required., aadharUrl: Path `aadharUrl` is required.	/auth/signup	POST	http://localhost:3000
+21112023	01:11:75	83d1e767-81d4-4336-adab-4bc35051f6c5	ValidationError:User validation failed: panUrl: Path `panUrl` is required., aadharUrl: Path `aadharUrl` is required.	/auth/signup	POST	http://localhost:3000
+21112023	01:13:17	6bfedddc-ce9d-46ea-8008-fd79d1eb6d0a	ValidationError:User validation failed: panUrl: Path `panUrl` is required., aadharUrl: Path `aadharUrl` is required.	/auth/signup	POST	http://localhost:3000
+25112023	17:32:37	8f4045a3-51e0-45f9-8a49-08cdda847cff	CastError:Cast to Number failed for value "+91 78899 99888" (type string) at path "phoneNumber" for model "User"	/auth/signup	POST	http://localhost:3000
+25112023	17:35:98	eea23091-bc6b-4e5c-8db8-38ff667f4037	CastError:Cast to Number failed for value "+91 78303 26521" (type string) at path "phoneNumber" for model "User"	/auth/signup	POST	http://localhost:3000
+25112023	17:37:21	e00d9c86-4d7f-4f02-af9a-6c8ebd5fddac	ValidationError:User validation failed: postalCost: Cast to Number failed for value "dqd" (type string) at path "postalCost"	/auth/signup	POST	http://localhost:3000
+27112023	11:52:52	928e94cc-1313-4d2d-9958-e4f9abfcf491	MongooseServerSelectionError:Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/	/auth	POST	http://localhost:3000
+27112023	11:56:24	a8bbee2b-5d39-4f5d-a099-9de867f256fb	MongooseServerSelectionError:Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/	/auth	POST	http://localhost:3000
+27112023	16:33:87	15a8bc4b-dc3a-4393-90bb-63140149915d	MongooseServerSelectionError:Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/	/auth/signup	POST	http://localhost:3000
+27112023	16:35:48	f87c7c72-abad-4c7b-bb41-5f3ed19f9785	MongooseServerSelectionError:Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/	/auth/signup	POST	http://localhost:3000
+27112023	16:58:36	57940fe1-e089-4f30-ac30-036cafce17e4	MongooseServerSelectionError:Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/	/auth/signup	POST	http://localhost:3000
+05122023	16:24:65	919ea0c6-ef36-42d8-934f-c73a696ebe82	CastError:Cast to Number failed for value "+231 2321312321" (type string) at path "phoneNumber" for model "User"	/auth/signup	POST	http://localhost:3001
+05122023	16:25:11	52515675-b287-4713-81bc-83172828bd9c	CastError:Cast to Number failed for value "+7 830 322 32" (type string) at path "phoneNumber" for model "User"	/auth/signup	POST	http://localhost:3001
+05122023	16:29:37	32fa26e8-e1f2-4a19-a7bf-2cc10864884a	CastError:Cast to Number failed for value "+91 78303 26521" (type string) at path "phoneNumber" for model "User"	/auth/signup	POST	http://localhost:3001
+12012024	15:41:67	03169819-b318-4a9e-9695-9f1b0d620df7	Error:Not allowed by CORS	/auth	OPTIONS	http://localhost:3002
+12012024	15:41:23	2264085b-8172-4f38-93d6-6da0a7fd2e3b	Error:Not allowed by CORS	/auth	OPTIONS	http://localhost:3002
+23012024	14:33:81	2e117f75-f82f-4b59-a72b-8a2bddea576b	TypeError:Community.findOne is not a function	/auth/signup	POST	http://localhost:3001
+23012024	14:38:30	b9b5f154-2167-4996-abf9-f2dddcc2e768	TypeError:Community.findOne is not a function	/auth/signup	POST	http://localhost:3001
+23012024	14:41:09	198a6d80-ed32-4564-a27a-e81ca9adbf24	TypeError:Community.findOne is not a function	/auth/signup	POST	http://localhost:3001
+23012024	15:14:53	78d764d5-9902-4755-b004-ec2028a3de15	TypeError:Community.find is not a function	/auth/signup	POST	http://localhost:3001
+23012024	15:19:03	025eee37-be17-4977-812f-3b8fb0abee53	CastError:Cast to ObjectId failed for value "dsadasdas" (type string) at path "communityName" for model "Community"	/auth/signup	POST	http://localhost:3001
+23012024	15:21:26	63d5ddf6-00f6-4db7-bb5e-894d95d0aab3	CastError:Cast to ObjectId failed for value "Mathura,up" (type string) at path "communityName" for model "Community"	/auth/signup	POST	http://localhost:3001
+23012024	15:23:57	80d2b8c0-efcd-4725-9f8f-6dccca2af323	CastError:Cast to ObjectId failed for value "Mathura" (type string) at path "communityName" for model "Community"	/auth/signup	POST	http://localhost:3001
+23012024	15:25:28	05ad7123-ce3c-4bca-91d1-cf9c70c9e3c5	CastError:Cast to ObjectId failed for value "Mathura" (type string) at path "communityName" for model "Community"	/auth/signup	POST	http://localhost:3001
+23012024	15:57:82	fb0b66bd-5ce1-41f4-abb9-7026725187f2	ReferenceError:updatedCommunity is not defined	/auth/signup	POST	http://localhost:3001
+23012024	16:04:30	a1fa04b4-1040-4ad0-8552-1034f50d948b	TypeError:Cannot read properties of null (reading '_id')	/auth/signup	POST	http://localhost:3001
+23012024	16:05:95	c6c0dbe6-9a86-44d0-9ec4-184cb809649a	TypeError:Cannot read properties of null (reading '_id')	/auth/signup	POST	http://localhost:3001
+23012024	16:50:34	0d26b1d2-19b0-4e69-9870-47f8921beeb4	StrictPopulateError:Cannot populate path `author` because it is not in your schema. Set the `strictPopulate` option to false to override.	/auth/signup	POST	http://localhost:3001
+23012024	16:51:59	fd25df32-36c6-487e-9bf2-a28646cc109d	StrictPopulateError:Cannot populate path `author` because it is not in your schema. Set the `strictPopulate` option to false to override.	/auth/signup	POST	http://localhost:3001
